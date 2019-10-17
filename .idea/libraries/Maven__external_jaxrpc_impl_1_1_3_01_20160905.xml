@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: external:jaxrpc-impl:1.1.3_01-20160905">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/external/jaxrpc-impl/1.1.3_01-20160905/jaxrpc-impl-1.1.3_01-20160905.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/external/jaxrpc-impl/1.1.3_01-20160905/jaxrpc-impl-1.1.3_01-20160905-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/external/jaxrpc-impl/1.1.3_01-20160905/jaxrpc-impl-1.1.3_01-20160905-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

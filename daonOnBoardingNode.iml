@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:auth-node-api:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-util:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-plugin-framework:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.servicemix.bundles:org.apache.servicemix.bundles.javax-inject:1_2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-audit-core:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-audit-core:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:security:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.inject.extensions:guice-assistedinject:4.2.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-guice-core:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.inject:guice:no_aop:4.2.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.guava:guava:26.0-jre" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.checkerframework:checker-qual:2.5.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.errorprone:error_prone_annotations:2.1.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.j2objc:j2objc-annotations:1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-core:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:webhook:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.http:chf-http-core:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.swagger:swagger-models:1.5.16" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-license-servlet:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-license-core:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-shared:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.inject.extensions:guice-multibindings:4.2.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-keystore:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:secrets-api:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.googlecode.java-ipv6:java-ipv6:0.14" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: joda-time:joda-time:2.9.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-exceptions:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-config:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-audit-context:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-monitoring-core:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:monitoring-api:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.agkn:hll:1.6.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: it.unimi.dsi:fastutil:6.5.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:monitoring-http:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:monitoring-dropwizard:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.prometheus:simpleclient_common:0.0.21" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.prometheus:simpleclient:0.0.21" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.prometheus:simpleclient_dropwizard:0.0.21" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-idsvcs-schema:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-mib-schema:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-xacml3-schema:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-ldap-utils:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-annotations:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-license-manager-cli:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-notifications:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:json-web-token:24.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:json-resource-http:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:json-resource:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:api-descriptor:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:json-schema-core:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-tokens:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:forgerock-bloomfilter-core:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:forgerock-bloomfilter-monitoring:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.opendj:opendj-server:6.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.opendj:opendj-cli:6.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.opendj:opendj-rest2ldap:6.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.http:chf-oauth2:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.http:chf-client-apache-async:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.httpcomponents:httpasyncclient-osgi:4.1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.http:chf-client-apache-common:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.httpcomponents:httpclient-osgi:4.5.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.httpcomponents:httpcore-osgi:4.4.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:jcl-over-slf4j:1.7.21" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:i18n-slf4j:1.4.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.opendj:opendj-config:6.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:config:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.http:chf-http-grizzly:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.grizzly:grizzly-http-server:2.3.30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.grizzly:grizzly-http:2.3.30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-audit-handler-csv:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.sf.supercsv:super-csv:2.4.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-audit-handler-json:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-audit-handler-json-stdout:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-audit-handler-elasticsearch:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-audit-handler-splunk:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-audit-handler-jms:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.jms:javax.jms-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-audit-json:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.module:jackson-module-jsonSchema:2.9.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-audit-handler-syslog:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:forgerock-audit-handler-jdbc:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:jul-to-slf4j:1.7.21" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:monitoring-json-resource:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.dropwizard.metrics:metrics-json:3.2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.dropwizard.metrics:metrics-graphite:3.2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.dropwizard.metrics:metrics-jvm:3.2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir:1.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sleepycat:je:7.5.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.stephenc.jcip:jcip-annotations:1.0-1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.groovy:groovy-all:2.4.12" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.opendj:opendj-core:6.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:i18n-core:1.4.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.reactivex.rxjava2:rxjava:2.1.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.opendj:opendj-grizzly:6.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.grizzly:grizzly-framework:2.3.30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.iplanet.jato:jato:2005-05-04" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.web.ui:cc:2008-08-08" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.click:click-extras:2.3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.click:click-nodeps:2.3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-io:commons-io:2.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: ognl:ognl:2.6.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.velocity:velocity:1.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-fileupload:commons-fileupload:1.3.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-logging:commons-logging:1.1.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-logging:commons-logging-api:1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: external:esapiport:2013-12-04" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.xml:jaxrpc-api:1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: external:jaxrpc-impl:1.1.3_01-20160905" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.xml.rpc:jaxrpc-spi:1.1.3_01" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.3.19" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jvnet.mimepull:mimepull:1.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.xml.fastinfoset:FastInfoset:1.2.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.json:json:20090211" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:jstl:1.1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.vavr:vavr:0.9.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.vavr:vavr-match:0.9.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.mail:javax.mail:1.6.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.findbugs:jsr305:3.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.dropwizard.metrics:metrics-core:3.2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.hdrhistogram:HdrHistogram:2.1.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-i18n:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.zafarkhaja:java-semver:0.9.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-transaction-core:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.bytebuddy:byte-buddy:1.8.12" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.am:openam-secrets:6.5.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:secrets-backend-keystore:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.forgerock.commons:secrets-backend-propertyresolver:24.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: de.danielbechler:java-object-diff:0.95" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-client:2.25.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-common:2.25.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.25.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-api:2.5.0-b32" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-utils:2.5.0-b32" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b32" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:javax.inject:2.5.0-b32" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.media:jersey-media-json-jackson:2.25.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jersey.ext:jersey-entity-filtering:2.25.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.5" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.5" level="project" />
+  </component>
+</module>
