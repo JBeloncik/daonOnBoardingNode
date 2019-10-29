@@ -1,20 +1,11 @@
 package com.daon.openam.onboarding;
 
+import java.nio.charset.StandardCharsets;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
-import com.fasterxml.jackson.databind.JsonNode;
-import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.io.UnsupportedEncodingException;
 import java.util.Base64;
-import java.util.UUID;
-import java.io.UnsupportedEncodingException;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-import jdk.nashorn.internal.ir.ObjectNode;
-import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
-import org.glassfish.jersey.client.ClientConfig;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,65 +15,61 @@ import org.slf4j.LoggerFactory;
  * Created by jbeloncik on 9/30/19.
  */
 public class RestClient {
-    private String REST_URI;
-    private String AUTH;
+    private String restUri;
+    private String auth;
+    private Client client = ClientBuilder.newClient();
+
 
     private final Logger logger = LoggerFactory.getLogger("amAuth");
 
-    public RestClient(String restUri, String apiKey, String apiPassword) {
-        REST_URI = restUri;
+    RestClient(String restUri, String apiKey, String apiPassword) {
+        this.restUri = restUri;
 
-        try {
-            String userPassStr = apiKey + ":" + apiPassword;
-            AUTH = "Basic " + Base64.getEncoder().encodeToString(userPassStr.getBytes("utf-8"));
-        } catch (UnsupportedEncodingException e) {
-            logger.error("Error with Basic Auth encoding: " + e.getMessage());
-        }
+        String userPassStr = apiKey + ":" + apiPassword;
+        auth = "Basic " + Base64.getEncoder().encodeToString(userPassStr.getBytes(StandardCharsets.UTF_8));
     }
 
-
-    private Client client = ClientBuilder.newClient();
-
+    //TODO Not used
     public Response getUserDetails(String userName) {
         return client
-                .target(REST_URI)
+                .target(restUri)
                 .path("users")
                 .queryParam("userId", userName)
                 .queryParam("status", "ACTIVE")
                 .queryParam("limit", 1)
                 .request(MediaType.APPLICATION_JSON)
                 .header("Content-Type", "application/json")
-                .header("Authorization", AUTH)
+                .header("Authorization", auth)
                 .get(Response.class);
     }
 
 
     //get idCheck reviews
     //{{host}}/{{tenant}}/DigitalOnBoardingServices/rest/v1/users/{{user.id}}/idchecks/{{idcheck.id}}/reviews
-    public Response getIdCheckReviews(String userId, String idCheckId) {
+    Response getIdCheckReviews(String userId, String idCheckId) {
 
         String reviewPath = "users/" + userId + "/idchecks/" + idCheckId + "/reviews";
 
         return client
-                .target(REST_URI)
+                .target(restUri)
                 .path(reviewPath)
                 .request(MediaType.APPLICATION_JSON)
                 .header("Content-Type", "application/json")
-                .header("Authorization", AUTH)
+                .header("Authorization", auth)
                 .get(Response.class);
 
     }
 
-    public Response getIdCheckEvaluationResults(String userId, String idCheckId) {
+    Response getIdCheckEvaluationResults(String userId, String idCheckId) {
 
         String evaluationPath = "users/" + userId + "/idchecks/" + idCheckId + "/evaluation";
 
         return client
-                .target(REST_URI)
+                .target(restUri)
                 .path(evaluationPath)
                 .request(MediaType.APPLICATION_JSON)
                 .header("Content-Type", "application/json")
-                .header("Authorization", AUTH)
+                .header("Authorization", auth)
                 .get(Response.class);
     }
 
