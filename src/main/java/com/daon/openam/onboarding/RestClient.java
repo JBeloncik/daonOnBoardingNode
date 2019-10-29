@@ -1,26 +1,24 @@
 package com.daon.openam.onboarding;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.Base64;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 
 /**
  * Created by jbeloncik on 9/30/19.
  */
 public class RestClient {
+    private final Logger logger = LoggerFactory.getLogger("amAuth");
     private String restUri;
     private String auth;
     private Client client = ClientBuilder.newClient();
-
-
-    private final Logger logger = LoggerFactory.getLogger("amAuth");
 
     RestClient(String restUri, String apiKey, String apiPassword) {
         this.restUri = restUri;
