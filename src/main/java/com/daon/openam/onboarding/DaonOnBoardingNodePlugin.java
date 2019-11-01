@@ -19,14 +19,9 @@ package com.daon.openam.onboarding;
 import java.util.Collections;
 import java.util.Map;
 
-import javax.inject.Inject;
-
 import org.forgerock.openam.auth.node.api.AbstractNodeAmPlugin;
 import org.forgerock.openam.auth.node.api.Node;
 import org.forgerock.openam.plugins.PluginException;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 
 /**
@@ -60,7 +55,7 @@ import org.slf4j.LoggerFactory;
  * @supported.all.api
  * @since AM 5.5.0
  */
-public class daonOnBoardingNodePlugin extends AbstractNodeAmPlugin {
+public class DaonOnBoardingNodePlugin extends AbstractNodeAmPlugin {
 
 	static private String currentVersion = "1.0.0";
 	
@@ -72,8 +67,8 @@ public class daonOnBoardingNodePlugin extends AbstractNodeAmPlugin {
      */
 	@Override
 	protected Map<String, Iterable<? extends Class<? extends Node>>> getNodesByVersion() {
-		return Collections.singletonMap(daonOnBoardingNodePlugin.currentVersion, 
-				Collections.singletonList(daonOnBoardingNode.class));
+		return Collections.singletonMap(DaonOnBoardingNodePlugin.currentVersion,
+										Collections.singletonList(DaonOnBoardingNode.class));
 	}
 
     /** 
@@ -121,6 +116,6 @@ public class daonOnBoardingNodePlugin extends AbstractNodeAmPlugin {
      */
 	@Override
 	public String getPluginVersion() {
-		return daonOnBoardingNodePlugin.currentVersion;
+		return DaonOnBoardingNodePlugin.currentVersion;
 	}
 }
