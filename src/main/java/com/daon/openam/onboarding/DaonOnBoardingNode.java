@@ -105,9 +105,9 @@ public class DaonOnBoardingNode extends AbstractDecisionNode {
             String userIdVal = "";
 
             for (TextInputCallback tic : textInputCallbackList) {
-                if (tic.getDefaultText().equalsIgnoreCase("idcheck.id")) {
+                if (tic.getPrompt().equalsIgnoreCase("Please provide the IdCheckId")) {
                     idCheckIdVal = tic.getText();
-                } else if (tic.getDefaultText().equalsIgnoreCase("user.id")) {
+                } else if (tic.getPrompt().equalsIgnoreCase("Please provide the userID")) {
                     userIdVal = tic.getText();
                 }
 
