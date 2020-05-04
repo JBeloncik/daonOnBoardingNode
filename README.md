@@ -10,7 +10,7 @@ Daon, [www.daon.com](www.daon.com), is an innovator in developing and deploying 
 ## IdentityX Onboarding ##
 
 Daon's IdentityX Onboarding provides the functionality required to support prospective tenants of an existing IdentityX system who want to collect, assess and evaluate the supported data provided as part of a new customer application process. In a typical scenario, applicants can apply for an account by simply taking a selfie for enrollment, then scanning their documents, and performing liveness checks.
-![ScreenShot](./images/user_flow.png)
+![ScreenShot](./images/Onboarding.png)
 
 ## Installation ##
 Download the current release [here](https://github.com/JBeloncik/daonOnBoardingNode/releases/latest)
