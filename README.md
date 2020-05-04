@@ -1,4 +1,4 @@
-# Daon IdentityX On Boarding Node
+# Daon IdentityX Onboarding Node
 
 Daon's IdentityX platform is helping customers across the globe ditch passwords and deliver world-class customer
  experience by leveraging biometrics. This node allows ForgeRock customers to easily add Daon On Boarding status
@@ -6,6 +6,11 @@ Daon's IdentityX platform is helping customers across the globe ditch passwords 
 
 ## About Daon ##
 Daon, [www.daon.com](www.daon.com), is an innovator in developing and deploying biometric authentication and identity assurance solutions worldwide. Daon has pioneered methods for securely and conveniently combining biometric and identity capabilities across multiple channels with large-scale deployments that span payments verification, digital banking, wealth, insurance, telcos, and securing borders and critical infrastructure. Daon's IdentityX® platform provides an inclusive, trusted digital security experience, enabling the creation, authentication and recovery of a user’s identity and allowing businesses to conduct transactions with any consumer through any medium with total confidence. Get to know us on [Twitter](https://twitter.com/DaonInc), [Facebook](https://www.facebook.com/humanauthentication) and [LinkedIn](https://www.linkedin.com/company/daon).
+
+## IdentityX Onboarding ##
+
+Daon's IdentityX Onboarding provides the functionality required to support prospective tenants of an existing IdentityX system who want to collect, assess and evaluate the supported data provided as part of a new customer application process. In a typical scenario, applicants can apply for an account by simply taking a selfie for enrollment, then scanning their documents, and performing liveness checks.
+![ScreenShot](./images/user_flow.png)
 
 ## Installation ##
 Download the current release [here](https://github.com/JBeloncik/daonOnBoardingNode/releases/latest)
@@ -22,7 +27,7 @@ Copy the jar file into the ../web-container/webapps/openam/WEB-INF/lib directory
 The node must be configured to connect to an IdentityX server. Contact your Daon representative for connection details.
 
 ### Configuration Parameters ###
-Daon On Boarding Node contains the following configurable parameters:
+Daon Onboarding Node contains the following configurable parameters:
 - **IdentityX Base URL** URL to the Identity X Service e.g. `https://api.identityx-cloud.com/{{organization}}/DigitalOnBoardingServices/rest/v1`
 - **API Key** Identity X API Key
 - **API Password** Identity X API Secret
